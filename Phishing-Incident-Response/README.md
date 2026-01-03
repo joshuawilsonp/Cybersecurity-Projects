@@ -7,10 +7,10 @@ This project simulates the investigation of a phishing email incident. It covers
 - VirusTotal (for file and URL analysis)  
 - Email Header Analyzer (online tools)  
 - MITRE ATT&CK Framework  
-- Public phishing email samples  
+- Public phishing email samples from <<source website/link>>  
 
 ## Incident Description
-A simulated phishing email was received by an employee, containing a malicious link designed to steal credentials. The goal was to investigate the email, identify the threat, and recommend mitigation.
+A simulated phishing email was received by an employee, containing <<describe the malicious content: e.g., a malicious link, attachment, etc.>> designed to <<goal of the phishing attack, e.g., steal credentials>>. The goal was to investigate the email, identify the threat, and recommend mitigation.
 
 ## Investigation Steps
 1. Analyzed the email headers to identify the sender and routing path.  
@@ -20,9 +20,9 @@ A simulated phishing email was received by an employee, containing a malicious l
 5. Documented indicators such as IP addresses, domains, and email addresses involved.
 
 ## Findings
-- The phishing email originated from a suspicious domain with low reputation.  
-- The attachment was identified as a malicious macro-enabled document.  
-- URLs led to credential phishing websites designed to harvest user login information.
+- The phishing email originated from <<describe suspicious domain or IP>> with low reputation.  
+- The attachment was identified as <<describe attachment type, e.g., a malicious macro-enabled document>>.  
+- URLs led to <<describe the phishing websites or payloads>> designed to harvest user login information.
 
 ## MITRE ATT&CK Mapping
 - Initial Access: Phishing (T1566)  
@@ -30,10 +30,10 @@ A simulated phishing email was received by an employee, containing a malicious l
 - Credential Access: Phishing for Credentials (T1566.001)
 
 ## Remediation and Recommendations
-- Blocked sender domain and IP addresses at the firewall.  
+- Blocked sender domain <<domain name>> and IP addresses <<IP addresses>> at the firewall.  
 - Informed employees about the phishing attempt through awareness training.  
 - Implemented email filtering rules to flag similar phishing emails.  
 - Enabled multi-factor authentication (MFA) to protect user accounts.
 
 ## Lessons Learned
-This exercise highlighted the importance of proactive email filtering, employee awareness, and rapid incident response procedures in mitigating phishing attacks.
+This exercise highlighted the importance of <<write your reflections: e.g., proactive email filtering, employee awareness, rapid incident response>> in mitigating phishing attacks.
